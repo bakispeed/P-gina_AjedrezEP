@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Times New Roman', Times,;
+    background: #fff8f0;
+    color: #3a2c2a;
+    background-image: url('fondo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  header {
+    background-color: #838485;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .logo {
+    max-width: 480px;   
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    position: absolute; /* Permite posicionar el elemento de manera precisa */
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 10px; /* Ajusta la distancia desde el borde izquierdo */
+    height: auto; /* Mantiene la proporción */
+}
+
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .seccion {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  pre {
+    background: #ffeecc;
+    padding: 15px;
+    overflow-x: auto;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #241e1b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7d655d;
+  }
+  
+  footer {
+    background: #694638;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+ul {
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Espacio entre botones */
+}
+
+li a {
+    display: inline-block; /* Convierte los enlaces en elementos con tamaño */
+    background-color: #595e63; /* Color de botón */
+    color: white; /* Texto blanco */
+    padding: 5px 25px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quita el subrayado */
+    transition: background-color 0.3s; /* Suaviza el cambio de color */
+}
+li a:hover {
+    background-color: #979ca1; /* Cambia el color al pasar el mouse */
+}
+#Jugar h2, #caracteristicas h2, #contacto h2 , #por-que h2, #inicio h2, h3 {
+    text-align: center;
+    font-size: 37px;
+    color: #e40808;
+}
+
+#inicio p, #caracteristicas p, li  {
+    font-size: 17px;
+    color: #000000;
+}
+
+#caracteristicas p, h2{
+    margin-bottom: 70px; /* Espacio entre renglones */
+}
+
+#formulario label, #caracteristicas li {
+    font-size: 21px;
+    color: #000000;
+}
+#Jugar p, #caracteristicas li{
+  font-weight: bold;
+}
+.resaltado {
+    font-weight: bold; /* Negrilla */
+    color: rgb(20, 4, 4); /* Color rojo */
+}
